@@ -218,14 +218,14 @@ h1 {
 .services__cards {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     row-gap: 85px;
     margin-bottom: 106px;
 }
 
 .services__card {
     position: relative;
-    width: calc(50% - 10px);
+    width: calc(50% - 5px);
 }
 .services__price {
     position: absolute;
@@ -264,7 +264,7 @@ h1 {
     color: #FFFFFF;
 }
 
-/* Секция с отзывами
+/* Секция с отзывами */
 
 .reviews {
     padding-top: 150px;
@@ -282,12 +282,17 @@ h1 {
 
 .reviews__cards {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
+    row-gap: 50px;
 }
 
-.reviews__card {
-    width: calc(50% - 50px);
+.review {
+    width: calc(50% - 25px);
+}
+
+.review_big{
+    width: 861px;
 }
 
 .reviews__subtitle {
@@ -303,7 +308,7 @@ h1 {
     line-height: 30px;
     letter-spacing: -0.03em;
     color: #000000;
-} */
+}
 
 /* Полноэкранная картинка Проект двухкомнатной */
 
@@ -523,10 +528,28 @@ h1 {
         font-size: 25px;
         line-height: 34px;
     } 
-    /* .reviews {
+    .reviews {
     padding-top: 117px;
     padding-bottom: 120px;
-    } */
+    }
+    .reviews__cards {
+        row-gap: 10px;
+    }
+    .review {
+        width: calc(50% - 5px);
+    }
+    .review_big{
+        width: 694px;
+    }
+    .reviews__subtitle {
+        margin-bottom: 25px;
+        font-size: 35px;
+        line-height: 48px;
+    }
+    .reviews__text {
+        font-size: 20px;
+        line-height: 27px;
+    }
 }
 @media (max-width:767px) {
     .container {
@@ -640,8 +663,32 @@ h1 {
     font-size: 22px;
     line-height: 100px;
     }
-    /* .reviews {
+    .reviews {
     padding-top: 80px;
     padding-bottom: 80px;
-    } */
+    }
+    .reviews__title {
+        margin-bottom: 22px;
+        font-size: 14px;
+        line-height: 19px;
+    }
+    .reviews__cards {
+        flex-direction: column;
+        row-gap: 80px;
+    }
+    .review {
+        width: 100%;
+    }
+    .review_big{
+        width: 100%;
+    }
+    .reviews__subtitle {
+        margin-bottom: 10px;
+        font-size: 25px;
+        line-height: 34px;
+    }
+    .reviews__text {
+        font-size: 16px;
+        line-height: 22px;
+    }
 }
