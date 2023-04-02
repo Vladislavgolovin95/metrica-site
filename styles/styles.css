@@ -1,12 +1,12 @@
-@import url("/styles/nav-section.css");
-@import url("/styles/info.css");
-@import url("/styles/room.css");
-@import url("/styles/projects.css");
-@import url("/styles/project-example-img.css");
-@import url("/styles/services.css");
-@import url("/styles/reviews.css");
-@import url("/styles/contacts.css");
-@import url("/styles/footer.css");
+@import url(./nav-section.css);
+@import url(./info.css);
+@import url(./room.css);
+@import url(./projects.css);
+@import url(./project-example-img.css);
+@import url(./services.css);
+@import url(./reviews.css);
+@import url(./contacts.css);
+@import url(./footer.css);
 
 html {
     scroll-behavior: smooth;
