@@ -3,13 +3,13 @@
     margin-top: 128px;
     margin-bottom: 150px;
 }
-h1 {
+/* h1 {
     margin-bottom: 30px;
     font-style: normal;
     font-size: 60px;
     line-height: 60px;
     letter-spacing: -0.03em;
-}
+} */
 .room-img {
     display: block;
     width: 100%;
@@ -41,10 +41,10 @@ h1 {
         height: 400px;
         background-image: url(../resources/room_tablet.png);
     }
-    h1 {
+    /* h1 {
         width: 100%;
         font-size: 50px;
-    }
+    } */
     .room-text {
         bottom: 30px;
     }
@@ -58,11 +58,11 @@ h1 {
         height: 304px;
         background-image: url(../resources/room_phone.jpg);
     }
-    h1 {
+    /* h1 {
         margin-bottom: 25px;
         font-size: 28px;
         line-height: 32px;
-    }
+    } */
     .room-text {
         left: 15px;
         bottom: 15px;

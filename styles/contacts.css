@@ -7,18 +7,16 @@
     width: 473px;
     position: relative;
 }
-.contacts-title {
-    margin-bottom: 32px;
-    width: 90px;
-    height: 25px;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 25px;
-    letter-spacing: -0.03em;
-    text-transform: uppercase;
+.contacts-tel a {
+    display: block;
+    margin-bottom: 30px;
+    font-size: 60px;
+    line-height: 60px;
+    letter-spacing: -0.02em;
     color: #121212;
+    text-decoration: none;
 }
-.contacts-title::before {
+.contacts-tel a::before {
     position: absolute;
     left: -4px;
     top: -35px;
@@ -30,15 +28,6 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-}
-.contacts-tel a {
-    display: block;
-    margin-bottom: 30px;
-    font-size: 60px;
-    line-height: 60px;
-    letter-spacing: -0.02em;
-    color: #121212;
-    text-decoration: none;
 }
 .contacts-mail a {
     position: relative;

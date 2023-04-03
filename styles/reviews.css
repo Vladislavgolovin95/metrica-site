@@ -2,14 +2,6 @@
     padding-top: 150px;
     padding-bottom: 157px;
 }
-.reviews__title {
-    margin-bottom: 30px;
-    font-size: 18px;
-    line-height: 25px;
-    letter-spacing: -0.03em;
-    text-transform: uppercase;
-    color: #121212;
-}
 .reviews__cards {
     display: flex;
     flex-wrap: wrap;
@@ -64,11 +56,6 @@
     .reviews {
         padding-top: 80px;
         padding-bottom: 80px;
-    }
-    .reviews__title {
-        margin-bottom: 22px;
-        font-size: 14px;
-        line-height: 19px;
     }
     .reviews__cards {
         flex-direction: column;
