@@ -2,10 +2,6 @@
     position: relative;
     height: 100vh;
 }
-.gallery-container {
-    max-width: 1150px;
-    margin: 0 auto;
-}
 .gallery__title-wrapper {
     position: absolute;
     z-index: 100;
@@ -49,6 +45,7 @@
 }
 .gallery__control-prev,
 .gallery__control-next {
+   height: 33px;
    padding: 0;
    background: none;
    border: none;
@@ -93,9 +90,9 @@
         line-height: 34px;
     }
     .gallery__controls-wrapper {
-        max-width: 100%;
+        width: 100%;
         bottom: 155px;
-        left: 50px;
+        padding-left: 50px;
     }
     .gallery__slide-img {
         height: 536px;
@@ -123,8 +120,6 @@
     }
     .gallery__controls-wrapper {
         bottom: 191px;
-        left: 0;
-        width: 100%;
         padding-left: 14px;
         padding-right: 14px;
     }
