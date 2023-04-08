@@ -1,6 +1,5 @@
 .room-inner {
     margin: auto;
-    margin-top: 128px;
     margin-bottom: 150px;
 }
 /* h1 {
@@ -51,7 +50,6 @@
 }
 @media (max-width:767px) {
     .room-inner {
-        margin-top: 108px;
         margin-bottom: 80px;
     }
     .room-img {

@@ -120,8 +120,7 @@
     }
     .gallery__controls-wrapper {
         bottom: 191px;
-        padding-left: 14px;
-        padding-right: 14px;
+        padding: 0;
     }
     .gallery__controls {
         justify-content: space-between;

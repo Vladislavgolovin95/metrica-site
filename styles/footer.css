@@ -22,7 +22,7 @@
     text-transform: uppercase;
     color: #FFFFFF;
 }
-.footer__nav-link:nth-child(1) {
+.footer__nav-link:hover {
     opacity: 0.5;
 }
 .footer__text {

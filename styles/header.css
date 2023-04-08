@@ -1,0 +1,39 @@
+.header {
+    margin: 33px 0 70px 0;
+}
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+}
+.logo-wrapper {
+    width: 127px;
+}
+.logo {
+    display: block;
+    height: 21px;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+}
+.nav__link {
+    height: 25px;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: -0.03em;
+    color: #121212;
+    text-decoration: none;
+}
+.nav__link:hover {
+    opacity: 0.5;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width:1199px) {
+    
+}
+
+@media (max-width:1199px) {
+
+}
