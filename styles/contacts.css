@@ -62,7 +62,7 @@
     position: absolute;
     bottom: 0;
     left: 0;
-    width: 406px;
+    width: 485px;
     border: 1px solid #121212;
 }
 
@@ -78,7 +78,7 @@
         font-size: 45px;
     }
     .contacts-mail::after {
-        width: 305px;
+        width: 365px;
     }
 }
 
