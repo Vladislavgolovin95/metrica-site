@@ -22,3 +22,17 @@ function toggleBurger() {
     bodyNode.classList.toggle(BODY_FIXED_CLASSNAME);
     burgerBtnNode.classList.toggle(BURGER_BTN_OPENED_CLASSNAME);
 }
+
+// Закрытие меню бургер при нажатии на пункт меню
+
+const brg = Array.from(document.querySelectorAll('.burger-header__nav-link'));
+console.log(brg);
+brg.forEach(el => {
+    el.addEventListener('click', toggleBurger);
+});
+
+function toggleBurger() {
+    burgerNode.classList.toggle(BURGER_OPENED_CLASSNAME);
+    bodyNode.classList.toggle(BODY_FIXED_CLASSNAME);
+    burgerBtnNode.classList.toggle(BURGER_BTN_OPENED_CLASSNAME);
+}
